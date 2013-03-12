@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E899F3A616EF24D700FBF010 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3A516EF24D700FBF010 /* Cocoa.framework */; };
+		E899F3B016EF24D700FBF010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E899F3AE16EF24D700FBF010 /* InfoPlist.strings */; };
+		E899F3B216EF24D800FBF010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E899F3B116EF24D800FBF010 /* main.m */; };
+		E899F3B616EF24D800FBF010 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E899F3B416EF24D800FBF010 /* Credits.rtf */; };
+		E899F3B916EF24D800FBF010 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = E899F3B816EF24D800FBF010 /* Document.m */; };
+		E899F3BC16EF24D800FBF010 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = E899F3BA16EF24D800FBF010 /* Document.xib */; };
+		E899F3BF16EF24D800FBF010 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E899F3BD16EF24D800FBF010 /* MainMenu.xib */; };
+		E899F3C216EF24D800FBF010 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E899F3C016EF24D800FBF010 /* Document.xcdatamodeld */; };
+		E899F3CA16EF24D800FBF010 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3C916EF24D800FBF010 /* SenTestingKit.framework */; };
+		E899F3CB16EF24D800FBF010 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3A516EF24D700FBF010 /* Cocoa.framework */; };
+		E899F3D316EF24D800FBF010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E899F3D116EF24D800FBF010 /* InfoPlist.strings */; };
+		E899F3D616EF24D800FBF010 /* Testy2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E899F3D516EF24D800FBF010 /* Testy2Tests.m */; };
+		E899F3DE16EF24D800FBF010 /* Testy2Importer.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = E899F3DB16EF24D800FBF010 /* Testy2Importer.mdimporter */; };
+		E899F3E016EF24D800FBF010 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3DF16EF24D800FBF010 /* CoreServices.framework */; };
+		E899F3E216EF24D800FBF010 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3E116EF24D800FBF010 /* CoreFoundation.framework */; };
+		E899F3E416EF24D800FBF010 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3E316EF24D800FBF010 /* CoreData.framework */; };
+		E899F3E616EF24D800FBF010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E899F3E516EF24D800FBF010 /* Foundation.framework */; };
+		E899F3EC16EF24D800FBF010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E899F3EA16EF24D800FBF010 /* InfoPlist.strings */; };
+		E899F3EE16EF24D800FBF010 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E899F3ED16EF24D800FBF010 /* main.c */; };
+		E899F3F016EF24D800FBF010 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E899F3EF16EF24D800FBF010 /* GetMetadataForFile.m */; };
+		E899F3F316EF24D800FBF010 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E899F3F216EF24D800FBF010 /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E899F3CC16EF24D800FBF010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E899F39A16EF24D700FBF010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E899F3A116EF24D700FBF010;
+			remoteInfo = Testy2;
+		};
+		E899F3DC16EF24D800FBF010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E899F39A16EF24D700FBF010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E899F3DA16EF24D800FBF010;
+			remoteInfo = Testy2Importer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E899F3A216EF24D700FBF010 /* Testy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E899F3A516EF24D700FBF010 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E899F3A816EF24D700FBF010 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E899F3A916EF24D700FBF010 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E899F3AA16EF24D700FBF010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E899F3AD16EF24D700FBF010 /* Testy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testy2-Info.plist"; sourceTree = "<group>"; };
+		E899F3AF16EF24D700FBF010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E899F3B116EF24D800FBF010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E899F3B316EF24D800FBF010 /* Testy2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Testy2-Prefix.pch"; sourceTree = "<group>"; };
+		E899F3B516EF24D800FBF010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E899F3B716EF24D800FBF010 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		E899F3B816EF24D800FBF010 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		E899F3BB16EF24D800FBF010 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		E899F3BE16EF24D800FBF010 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E899F3C116EF24D800FBF010 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		E899F3C816EF24D800FBF010 /* Testy2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Testy2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E899F3C916EF24D800FBF010 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E899F3D016EF24D800FBF010 /* Testy2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testy2Tests-Info.plist"; sourceTree = "<group>"; };
+		E899F3D216EF24D800FBF010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E899F3D416EF24D800FBF010 /* Testy2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testy2Tests.h; sourceTree = "<group>"; };
+		E899F3D516EF24D800FBF010 /* Testy2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Testy2Tests.m; sourceTree = "<group>"; };
+		E899F3DB16EF24D800FBF010 /* Testy2Importer.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Testy2Importer.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E899F3DF16EF24D800FBF010 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		E899F3E116EF24D800FBF010 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E899F3E316EF24D800FBF010 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E899F3E516EF24D800FBF010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E899F3E916EF24D800FBF010 /* Testy2Importer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testy2Importer-Info.plist"; sourceTree = "<group>"; };
+		E899F3EB16EF24D800FBF010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E899F3ED16EF24D800FBF010 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E899F3EF16EF24D800FBF010 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		E899F3F116EF24D800FBF010 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		E899F3F216EF24D800FBF010 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		E899F3F416EF24D800FBF010 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		E899F3F516EF24D800FBF010 /* Testy2Importer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Testy2Importer-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E899F39F16EF24D700FBF010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3A616EF24D700FBF010 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899F3C416EF24D800FBF010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3CA16EF24D800FBF010 /* SenTestingKit.framework in Frameworks */,
+				E899F3CB16EF24D800FBF010 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899F3D816EF24D800FBF010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3E016EF24D800FBF010 /* CoreServices.framework in Frameworks */,
+				E899F3E216EF24D800FBF010 /* CoreFoundation.framework in Frameworks */,
+				E899F3E416EF24D800FBF010 /* CoreData.framework in Frameworks */,
+				E899F3E616EF24D800FBF010 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E899F39916EF24D700FBF010 = {
+			isa = PBXGroup;
+			children = (
+				E899F3AB16EF24D700FBF010 /* Testy2 */,
+				E899F3CE16EF24D800FBF010 /* Testy2Tests */,
+				E899F3E716EF24D800FBF010 /* Testy2Importer */,
+				E899F3A416EF24D700FBF010 /* Frameworks */,
+				E899F3A316EF24D700FBF010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E899F3A316EF24D700FBF010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3A216EF24D700FBF010 /* Testy2.app */,
+				E899F3C816EF24D800FBF010 /* Testy2Tests.octest */,
+				E899F3DB16EF24D800FBF010 /* Testy2Importer.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E899F3A416EF24D700FBF010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3A516EF24D700FBF010 /* Cocoa.framework */,
+				E899F3C916EF24D800FBF010 /* SenTestingKit.framework */,
+				E899F3DF16EF24D800FBF010 /* CoreServices.framework */,
+				E899F3E116EF24D800FBF010 /* CoreFoundation.framework */,
+				E899F3E316EF24D800FBF010 /* CoreData.framework */,
+				E899F3E516EF24D800FBF010 /* Foundation.framework */,
+				E899F3A716EF24D700FBF010 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E899F3A716EF24D700FBF010 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3A816EF24D700FBF010 /* AppKit.framework */,
+				E899F3A916EF24D700FBF010 /* CoreData.framework */,
+				E899F3AA16EF24D700FBF010 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E899F3AB16EF24D700FBF010 /* Testy2 */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3B716EF24D800FBF010 /* Document.h */,
+				E899F3B816EF24D800FBF010 /* Document.m */,
+				E899F3BA16EF24D800FBF010 /* Document.xib */,
+				E899F3BD16EF24D800FBF010 /* MainMenu.xib */,
+				E899F3C016EF24D800FBF010 /* Document.xcdatamodeld */,
+				E899F3AC16EF24D700FBF010 /* Supporting Files */,
+			);
+			path = Testy2;
+			sourceTree = "<group>";
+		};
+		E899F3AC16EF24D700FBF010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3AD16EF24D700FBF010 /* Testy2-Info.plist */,
+				E899F3AE16EF24D700FBF010 /* InfoPlist.strings */,
+				E899F3B116EF24D800FBF010 /* main.m */,
+				E899F3B316EF24D800FBF010 /* Testy2-Prefix.pch */,
+				E899F3B416EF24D800FBF010 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E899F3CE16EF24D800FBF010 /* Testy2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3D416EF24D800FBF010 /* Testy2Tests.h */,
+				E899F3D516EF24D800FBF010 /* Testy2Tests.m */,
+				E899F3CF16EF24D800FBF010 /* Supporting Files */,
+			);
+			path = Testy2Tests;
+			sourceTree = "<group>";
+		};
+		E899F3CF16EF24D800FBF010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3D016EF24D800FBF010 /* Testy2Tests-Info.plist */,
+				E899F3D116EF24D800FBF010 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E899F3E716EF24D800FBF010 /* Testy2Importer */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3EF16EF24D800FBF010 /* GetMetadataForFile.m */,
+				E899F3F116EF24D800FBF010 /* MySpotlightImporter.h */,
+				E899F3F216EF24D800FBF010 /* MySpotlightImporter.m */,
+				E899F3F416EF24D800FBF010 /* Importer Read Me.txt */,
+				E899F3E816EF24D800FBF010 /* Supporting Files */,
+			);
+			path = Testy2Importer;
+			sourceTree = "<group>";
+		};
+		E899F3E816EF24D800FBF010 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E899F3E916EF24D800FBF010 /* Testy2Importer-Info.plist */,
+				E899F3EA16EF24D800FBF010 /* InfoPlist.strings */,
+				E899F3ED16EF24D800FBF010 /* main.c */,
+				E899F3F516EF24D800FBF010 /* Testy2Importer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E899F3A116EF24D700FBF010 /* Testy2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E899F3FB16EF24D800FBF010 /* Build configuration list for PBXNativeTarget "Testy2" */;
+			buildPhases = (
+				E899F39E16EF24D700FBF010 /* Sources */,
+				E899F39F16EF24D700FBF010 /* Frameworks */,
+				E899F3A016EF24D700FBF010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E899F3DD16EF24D800FBF010 /* PBXTargetDependency */,
+			);
+			name = Testy2;
+			productName = Testy2;
+			productReference = E899F3A216EF24D700FBF010 /* Testy2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E899F3C716EF24D800FBF010 /* Testy2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E899F3FE16EF24D800FBF010 /* Build configuration list for PBXNativeTarget "Testy2Tests" */;
+			buildPhases = (
+				E899F3C316EF24D800FBF010 /* Sources */,
+				E899F3C416EF24D800FBF010 /* Frameworks */,
+				E899F3C516EF24D800FBF010 /* Resources */,
+				E899F3C616EF24D800FBF010 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E899F3CD16EF24D800FBF010 /* PBXTargetDependency */,
+			);
+			name = Testy2Tests;
+			productName = Testy2Tests;
+			productReference = E899F3C816EF24D800FBF010 /* Testy2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E899F3DA16EF24D800FBF010 /* Testy2Importer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E899F3F816EF24D800FBF010 /* Build configuration list for PBXNativeTarget "Testy2Importer" */;
+			buildPhases = (
+				E899F3D716EF24D800FBF010 /* Sources */,
+				E899F3D816EF24D800FBF010 /* Frameworks */,
+				E899F3D916EF24D800FBF010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testy2Importer;
+			productName = Testy2Importer;
+			productReference = E899F3DB16EF24D800FBF010 /* Testy2Importer.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E899F39A16EF24D700FBF010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jean-Paul Ladue";
+			};
+			buildConfigurationList = E899F39D16EF24D700FBF010 /* Build configuration list for PBXProject "Testy2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E899F39916EF24D700FBF010;
+			productRefGroup = E899F3A316EF24D700FBF010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E899F3A116EF24D700FBF010 /* Testy2 */,
+				E899F3C716EF24D800FBF010 /* Testy2Tests */,
+				E899F3DA16EF24D800FBF010 /* Testy2Importer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E899F3A016EF24D700FBF010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3B016EF24D700FBF010 /* InfoPlist.strings in Resources */,
+				E899F3B616EF24D800FBF010 /* Credits.rtf in Resources */,
+				E899F3BC16EF24D800FBF010 /* Document.xib in Resources */,
+				E899F3BF16EF24D800FBF010 /* MainMenu.xib in Resources */,
+				E899F3DE16EF24D800FBF010 /* Testy2Importer.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899F3C516EF24D800FBF010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3D316EF24D800FBF010 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899F3D916EF24D800FBF010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3EC16EF24D800FBF010 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E899F3C616EF24D800FBF010 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E899F39E16EF24D700FBF010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3B216EF24D800FBF010 /* main.m in Sources */,
+				E899F3B916EF24D800FBF010 /* Document.m in Sources */,
+				E899F3C216EF24D800FBF010 /* Document.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899F3C316EF24D800FBF010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3D616EF24D800FBF010 /* Testy2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E899F3D716EF24D800FBF010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E899F3EE16EF24D800FBF010 /* main.c in Sources */,
+				E899F3F016EF24D800FBF010 /* GetMetadataForFile.m in Sources */,
+				E899F3F316EF24D800FBF010 /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E899F3CD16EF24D800FBF010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E899F3A116EF24D700FBF010 /* Testy2 */;
+			targetProxy = E899F3CC16EF24D800FBF010 /* PBXContainerItemProxy */;
+		};
+		E899F3DD16EF24D800FBF010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E899F3DA16EF24D800FBF010 /* Testy2Importer */;
+			targetProxy = E899F3DC16EF24D800FBF010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E899F3AE16EF24D700FBF010 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E899F3AF16EF24D700FBF010 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E899F3B416EF24D800FBF010 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E899F3B516EF24D800FBF010 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E899F3BA16EF24D800FBF010 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E899F3BB16EF24D800FBF010 /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		E899F3BD16EF24D800FBF010 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E899F3BE16EF24D800FBF010 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E899F3D116EF24D800FBF010 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E899F3D216EF24D800FBF010 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E899F3EA16EF24D800FBF010 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E899F3EB16EF24D800FBF010 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E899F3F616EF24D800FBF010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E899F3F716EF24D800FBF010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E899F3F916EF24D800FBF010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testy2Importer/Testy2Importer-Prefix.pch";
+				INFOPLIST_FILE = "Testy2Importer/Testy2Importer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		E899F3FA16EF24D800FBF010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testy2Importer/Testy2Importer-Prefix.pch";
+				INFOPLIST_FILE = "Testy2Importer/Testy2Importer-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		E899F3FC16EF24D800FBF010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testy2/Testy2-Prefix.pch";
+				INFOPLIST_FILE = "Testy2/Testy2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E899F3FD16EF24D800FBF010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testy2/Testy2-Prefix.pch";
+				INFOPLIST_FILE = "Testy2/Testy2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E899F3FF16EF24D800FBF010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Testy2.app/Contents/MacOS/Testy2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testy2/Testy2-Prefix.pch";
+				INFOPLIST_FILE = "Testy2Tests/Testy2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E899F40016EF24D800FBF010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Testy2.app/Contents/MacOS/Testy2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testy2/Testy2-Prefix.pch";
+				INFOPLIST_FILE = "Testy2Tests/Testy2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E899F39D16EF24D700FBF010 /* Build configuration list for PBXProject "Testy2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E899F3F616EF24D800FBF010 /* Debug */,
+				E899F3F716EF24D800FBF010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E899F3F816EF24D800FBF010 /* Build configuration list for PBXNativeTarget "Testy2Importer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E899F3F916EF24D800FBF010 /* Debug */,
+				E899F3FA16EF24D800FBF010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E899F3FB16EF24D800FBF010 /* Build configuration list for PBXNativeTarget "Testy2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E899F3FC16EF24D800FBF010 /* Debug */,
+				E899F3FD16EF24D800FBF010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E899F3FE16EF24D800FBF010 /* Build configuration list for PBXNativeTarget "Testy2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E899F3FF16EF24D800FBF010 /* Debug */,
+				E899F40016EF24D800FBF010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E899F3C016EF24D800FBF010 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E899F3C116EF24D800FBF010 /* Document.xcdatamodel */,
+			);
+			currentVersion = E899F3C116EF24D800FBF010 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E899F39A16EF24D700FBF010 /* Project object */;
+}
